@@ -1,0 +1,116 @@
+
+body {
+    font-family: 'Sans-serif';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 20px;
+}
+
+.logo {
+    /* Added styling for logo image */
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 150px; /* Adjust the width of the logo image */
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Intro Section */
+.intro {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #f4f4f4;
+}
+
+.intro-text {
+    width: 50%;
+}
+
+.intro-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.intro-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.intro-image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Our Recipes Section */
+.our-recipes {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+.our-recipes h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.recipe-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.recipe-img:hover {
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+.contact-info p {
+    margin: 0;
+}
